@@ -1,0 +1,56 @@
+.header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #141831;
+	.container {
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__logo {
+		display: block;
+		width: 100px;
+		height: 100px;
+		img {
+			width: 100%;
+		}
+	}
+}
+.menu {
+	height: 100%;
+	&__list {
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&__item {
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&__link {
+		padding: 0 20px;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-transform: uppercase;
+		color: #fff;
+		&_active {
+			padding: 0 20px;
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-bottom: 3px solid #00affe;
+			text-transform: uppercase;
+			color: #00affe;
+			background-color: #25234f;
+		}
+	}
+}
