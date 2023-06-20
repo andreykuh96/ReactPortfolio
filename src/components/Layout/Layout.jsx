@@ -26,9 +26,7 @@ const Layout = () => {
 				headerActive={headerActive}
 			/>
 			<main className="main">
-				<div className="container">
-					<Outlet />
-				</div>
+				<Outlet />
 			</main>
 		</div>
 	);

@@ -1,6 +1,7 @@
 .header {
 	position: absolute;
 	top: 0;
+	z-index: 1;
 	width: 100%;
 	height: 100px;
 	background-color: #141831;
@@ -52,5 +53,9 @@
 			color: #00affe;
 			background-color: #25234f;
 		}
+	}
+	a:hover {
+		transition: all 0.5s ease;
+		background-color: #25234f7e;
 	}
 }
