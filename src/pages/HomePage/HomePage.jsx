@@ -2,7 +2,6 @@ import React from 'react';
 import './HomePage.scss';
 import './HomePage.media.scss';
 import { Link } from 'react-router-dom';
-import imgWelcome from '../../img/hi.png';
 
 const HomePage = () => {
 	return (
