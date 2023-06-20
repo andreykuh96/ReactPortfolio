@@ -13,16 +13,14 @@ const App = () => {
 	return (
 		<>
 			<Routes>
-				<Route
-					path="https://andreykuh96.github.io/ReactPortfolio/"
-					element={<Layout />}
-				>
+				<Route path="/" element={<Layout />}>
 					<Route index element={<HomePage />} />
 					<Route path="about" element={<AboutPage />} />
 					<Route path="experience" element={<ExperiencePage />} />
 					<Route path="skills" element={<SkillsPage />} />
 					<Route path="portfolio" element={<PortfolioPage />} />
 					<Route path="contacts" element={<ContactsPage />} />
+					<Route path="*" element={<HomePage />} />
 				</Route>
 			</Routes>
 		</>
