@@ -1,11 +1,12 @@
 import React from 'react';
 import './Header.scss';
+import './Header.media.scss';
 import { Link, NavLink } from 'react-router-dom';
 import headerLogo from '../../img/mac.png';
 
-const Header = () => {
+const Header = ({ headerActive, handleBurgerActive }) => {
 	return (
-		<header className="header">
+		<header className={`header ${headerActive}`}>
 			<div className="container">
 				<Link to="/" className="header__logo">
 					<img src={headerLogo} alt="logo" />
@@ -14,6 +15,7 @@ const Header = () => {
 					<ul className="menu__list">
 						<li className="menu__item">
 							<NavLink
+								onClick={() => handleBurgerActive()}
 								to="/about"
 								className={({ isActive }) =>
 									isActive
@@ -26,6 +28,7 @@ const Header = () => {
 						</li>
 						<li className="menu__item">
 							<NavLink
+								onClick={() => handleBurgerActive()}
 								className={({ isActive }) =>
 									isActive
 										? 'menu__link_active'
@@ -38,6 +41,7 @@ const Header = () => {
 						</li>
 						<li className="menu__item">
 							<NavLink
+								onClick={() => handleBurgerActive()}
 								className={({ isActive }) =>
 									isActive
 										? 'menu__link_active'
@@ -50,6 +54,7 @@ const Header = () => {
 						</li>
 						<li className="menu__item">
 							<NavLink
+								onClick={() => handleBurgerActive()}
 								className={({ isActive }) =>
 									isActive
 										? 'menu__link_active'
@@ -62,6 +67,7 @@ const Header = () => {
 						</li>
 						<li className="menu__item">
 							<NavLink
+								onClick={() => handleBurgerActive()}
 								className={({ isActive }) =>
 									isActive
 										? 'menu__link_active'
