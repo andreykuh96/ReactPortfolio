@@ -4,15 +4,5 @@
 		&__img {
 			display: none;
 		}
-		&__subtitle {
-			font-size: 42px;
-		}
-	}
-}
-@media (max-width: 425px) {
-	.HomePage {
-		&__subtitle {
-			font-size: 32px;
-		}
 	}
 }

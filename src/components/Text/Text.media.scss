@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+	.text {
+		&__subtitle {
+			font-size: 42px;
+		}
+	}
+}
+@media (max-width: 425px) {
+	.text {
+		&__subtitle {
+			font-size: 32px;
+		}
+	}
+}
