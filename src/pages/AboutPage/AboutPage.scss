@@ -1,0 +1,19 @@
+.AboutPage {
+	padding: 120px 0 0 0;
+	width: 100%;
+	.container {
+		display: flex;
+		justify-content: flex-start;
+		column-gap: 70px;
+	}
+	&__about {
+		margin: 0 0 40px 0;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 21px;
+	}
+	&__img {
+		padding: 20%;
+		background: url('../../img/about.png') center center/contain no-repeat;
+	}
+}

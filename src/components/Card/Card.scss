@@ -1,0 +1,13 @@
+.card {
+	span {
+		font-size: 25px;
+	}
+	&__title {
+		font-size: 14px;
+		font-weight: 700;
+	}
+	&__description {
+		font-size: 12px;
+		font-weight: 500;
+	}
+}

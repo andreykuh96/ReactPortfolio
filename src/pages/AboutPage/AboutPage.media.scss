@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+	.AboutPage {
+		padding: 0;
+		&__img {
+			display: none;
+		}
+	}
+}
