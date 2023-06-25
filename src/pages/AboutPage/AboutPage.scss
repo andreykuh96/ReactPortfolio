@@ -1,5 +1,5 @@
 .AboutPage {
-	padding: 120px 0 0 0;
+	padding: 120px 0 50px 0;
 	width: 100%;
 	.container {
 		display: flex;
@@ -15,5 +15,11 @@
 	&__img {
 		padding: 20%;
 		background: url('../../img/about.png') center center/contain no-repeat;
+	}
+	&__cards {
+		display: grid;
+		column-gap: 50px;
+		row-gap: 20px;
+		grid-template-columns: repeat(2, 1fr);
 	}
 }

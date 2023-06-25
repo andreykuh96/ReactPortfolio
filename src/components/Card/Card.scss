@@ -1,13 +1,31 @@
 .card {
-	span {
-		font-size: 25px;
+	display: flex;
+	column-gap: 20px;
+	&__left {
+		width: 35px;
+	}
+	&__circle {
+		position: relative;
+		width: 35px;
+		height: 35px;
+		border-radius: 100%;
+		background-color: #0094e1;
+		span {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			font-size: 25px;
+		}
 	}
 	&__title {
+		margin: 0 0 6px 0;
 		font-size: 14px;
 		font-weight: 700;
+		line-height: 21px;
 	}
 	&__description {
 		font-size: 12px;
 		font-weight: 500;
+		line-height: 19px;
 	}
 }
