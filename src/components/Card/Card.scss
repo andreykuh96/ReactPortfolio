@@ -1,6 +1,6 @@
 .card {
 	display: flex;
-	column-gap: 20px;
+	column-gap: 25px;
 	&__left {
 		width: 35px;
 	}
@@ -24,6 +24,7 @@
 		line-height: 21px;
 	}
 	&__description {
+		max-width: 200px;
 		font-size: 12px;
 		font-weight: 500;
 		line-height: 19px;

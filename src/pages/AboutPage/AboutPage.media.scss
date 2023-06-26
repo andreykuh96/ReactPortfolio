@@ -1,8 +1,22 @@
 @media (max-width: 768px) {
 	.AboutPage {
 		padding: 0;
+		&__cards {
+		}
+		&__wrapper {
+			padding: 40px 0;
+		}
 		&__img {
 			display: none;
+		}
+	}
+}
+@media (max-width: 500px) {
+	.AboutPage {
+		&__cards {
+			grid-template-columns: auto;
+			justify-content: center;
+			align-items: center;
 		}
 	}
 }
