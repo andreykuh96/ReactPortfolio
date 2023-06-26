@@ -17,37 +17,45 @@ const AboutPage = () => {
 						line
 					/>
 					<p className="AboutPage__about">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore
-						magna aliqua. Ut enim ad minim veniam, quis nostrud
-						exercitation ullamco laboris nisi ut aliquip ex ea
-						commodo consequat. Duis aute irure dolor in
-						reprehenderit in voluptate velit esse cillum dolore eu
-						fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-						non proident, sunt in culpa qui officia deserunt mollit
-						anim id est laborum
+						Я — фронтенд разработчик. Мой стек технологий включает
+						React, Redux, JavaScript, ООП, Webpack, Git, ES6/7,
+						Styled components, RESTful API, БЭМ и Axios. Я владею
+						навыками вёрстки и могу разрабатывать как десктопные,
+						так и мобильные версии сайтов и приложений. Часто я
+						работаю с макетами в Figma и успешно преобразую их в
+						интерактивные пользовательские интерфейсы. Моя основная
+						специализация — разработка с использованием React.FC
+						(hooks) в связке с Redux и React Router. Я глубоко
+						понимаю концепции управления состоянием и умею
+						эффективно организовывать данные в приложении. Я также
+						хорошо знаком с работой с API и принципами REST. У меня
+						есть опыт взаимодействия с сервером через запросы и
+						обработку ответов с помощью Axios. Я понимаю важность
+						эффективной передачи данных между клиентом и сервером.
+						Благодаря моим знаниям и навыкам в фронтенд разработке,
+						я готов внести ценный вклад в вашу команду. Я стремлюсь
+						к постоянному развитию и готов изучать новые технологии
+						и подходы, чтобы обеспечивать высокое качество кода и
+						улучшать пользовательский опыт. Я уверен, что мой опыт и
+						навыки сделают меня ценным дополнением для вашей
+						компании. Буду рад предоставить дополнительную
+						информацию на собеседовании.
 					</p>
 					<div className="AboutPage__cards">
 						<Card
 							iconName="icon-web"
 							title="Web-разработка"
-							text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-					do eiusmod tempor incididunt ut labore et dolore magna
-					aliqua."
+							text="Владею HTML, CSS, JavaScript, фреймворком (React), работаю с базами данных и веб-серверами, умею решать проблемы и работать в команде."
 						/>
 						<Card
 							iconName="icon-mobile"
 							title="Разработка приложений"
-							text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-					do eiusmod tempor incididunt ut labore et dolore magna
-					aliqua."
+							text="Я - разработчик приложений, занимаюсь всеми аспектами разработки: анализом требований, проектированием, программированием, тестированием, деплоем и поддержкой приложений."
 						/>
 						<Card
 							iconName="icon-design"
 							title="UI/UX Design"
-							text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-					do eiusmod tempor incididunt ut labore et dolore magna
-					aliqua."
+							text="Занимаюсь анализом требований, созданием привлекательного и удобного пользовательского интерфейса для улучшения пользовательского опыта."
 						/>
 					</div>
 				</div>

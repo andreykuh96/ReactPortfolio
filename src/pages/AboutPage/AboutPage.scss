@@ -9,12 +9,12 @@
 	&__about {
 		margin: 0 0 40px 0;
 		font-weight: 500;
-		font-size: 14px;
-		line-height: 21px;
+		font-size: 15px;
+		line-height: 22px;
 	}
 	&__img {
 		padding: 20%;
-		background: url('../../img/about.png') center center/contain no-repeat;
+		background: url('../../img/about.png') top center/contain no-repeat;
 	}
 	&__cards {
 		display: grid;
