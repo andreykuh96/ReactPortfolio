@@ -11,6 +11,7 @@
 		z-index: 0;
 		margin: 0 0 10px 0;
 		padding: 0 0 0 10px;
+		display: inline-block;
 		font-size: 16px;
 		line-height: 24px;
 		&::before {
@@ -27,7 +28,7 @@
 		}
 	}
 	&__subtitle {
-		margin: 0 0 37px;
+		margin: 0 0 37px 0;
 		font-size: 48px;
 		line-height: 60px;
 	}
@@ -39,6 +40,22 @@
 			&__subtitle {
 				margin: 0;
 				font-size: 36px;
+			}
+		}
+	}
+	&_center {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		.text {
+			&__subtitle {
+				margin: 0 0 20px 0;
+			}
+			&__title {
+				&::before {
+					left: 27%;
+				}
 			}
 		}
 	}
