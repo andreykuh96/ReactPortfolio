@@ -7,11 +7,23 @@ import Header from '../Header/Header';
 const Layout = () => {
 	const [burgerActive, setBurgerActive] = useState('');
 	const [headerActive, setHeaderActive] = useState('');
+	const [overflow, setOverflow] = useState(null);
 
 	const handleBurgerActive = () => {
 		setBurgerActive(!burgerActive ? 'burger_active' : '');
 		setHeaderActive(!headerActive ? 'header_active' : '');
+		setOverflow(burgerActive ? false : true);
 	};
+
+	const toggleOverflow = () => {
+		if (overflow) {
+			document.body.style.overflow = 'hidden';
+		} else {
+			document.body.style.overflow = '';
+		}
+	};
+
+	toggleOverflow();
 
 	return (
 		<div className="wrapper">
