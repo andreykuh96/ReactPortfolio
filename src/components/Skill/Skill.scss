@@ -24,9 +24,12 @@
 		height: 200px;
 		border-radius: 100%;
 		background-color: #ebd4b952;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		img {
-			width: 100%;
-			height: 100%;
+			width: 85%;
+			height: 85%;
 			object-fit: contain;
 		}
 	}
