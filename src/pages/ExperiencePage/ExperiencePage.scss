@@ -1,0 +1,11 @@
+.exp {
+	width: 100%;
+	padding: 120px 0 50px 0;
+	&__skill {
+		margin-top: 50px;
+		margin-bottom: 30px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}

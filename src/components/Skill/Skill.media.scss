@@ -1,0 +1,30 @@
+@media (max-width: 900px) {
+	.skill {
+		width: 150px;
+		&__img {
+			width: 150px;
+			height: 150px;
+		}
+	}
+}
+@media (max-width: 680px) {
+	.skill {
+		width: 100px;
+		&__img {
+			width: 100px;
+			height: 100px;
+		}
+	}
+}
+@media (max-width: 470px) {
+	.skill {
+		width: 65px;
+		&__img {
+			width: 65px;
+			height: 65px;
+		}
+		&__name {
+			font-size: 12px;
+		}
+	}
+}
