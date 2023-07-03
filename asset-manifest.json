@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.e754b8f4.css",
-    "main.js": "/ReactPortfolio/static/js/main.7df044e2.js",
+    "main.css": "/ReactPortfolio/static/css/main.62e3c361.css",
+    "main.js": "/ReactPortfolio/static/js/main.c92e6595.js",
     "static/media/skill_1.png": "/ReactPortfolio/static/media/skill_1.ea018a0073d33b0e5caf.png",
+    "static/media/skill_3.png": "/ReactPortfolio/static/media/skill_3.c22a8f85b928f0538170.png",
+    "static/media/skill_4.png": "/ReactPortfolio/static/media/skill_4.7cfc1a2660e25ec4ef44.png",
+    "static/media/skill_2.png": "/ReactPortfolio/static/media/skill_2.723188236061f28a5a4d.png",
     "static/media/hi.png": "/ReactPortfolio/static/media/hi.edca59eb1b2a2c4b8639.png",
     "static/media/mac.png": "/ReactPortfolio/static/media/mac.c5197792d61c8bd5425b.png",
     "static/media/about.png": "/ReactPortfolio/static/media/about.94b5afda810dfcd8e540.png",
@@ -11,11 +14,11 @@
     "static/media/icomoon.woff?ydiwhd": "/ReactPortfolio/static/media/icomoon.75329edc976068d7539a.woff",
     "static/media/icomoon.ttf?ydiwhd": "/ReactPortfolio/static/media/icomoon.9e1426b3532f3b326fa8.ttf",
     "index.html": "/ReactPortfolio/index.html",
-    "main.e754b8f4.css.map": "/ReactPortfolio/static/css/main.e754b8f4.css.map",
-    "main.7df044e2.js.map": "/ReactPortfolio/static/js/main.7df044e2.js.map"
+    "main.62e3c361.css.map": "/ReactPortfolio/static/css/main.62e3c361.css.map",
+    "main.c92e6595.js.map": "/ReactPortfolio/static/js/main.c92e6595.js.map"
   },
   "entrypoints": [
-    "static/css/main.e754b8f4.css",
-    "static/js/main.7df044e2.js"
+    "static/css/main.62e3c361.css",
+    "static/js/main.c92e6595.js"
   ]
 }
