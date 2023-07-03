@@ -4,7 +4,7 @@ import './Header.media.scss';
 import { Link, NavLink } from 'react-router-dom';
 import headerLogo from '../../img/mac.png';
 
-const Header = ({ headerActive, handleBurgerActive }) => {
+const Header = ({ headerActive, handleBurgerActive, overflow }) => {
 	const [isMobile, setIsMobile] = useState(false);
 
 	useEffect(() => {
@@ -22,6 +22,22 @@ const Header = ({ headerActive, handleBurgerActive }) => {
 
 		return () => window.addEventListener('resize', handleResize);
 	}, []);
+
+	useEffect(() => {
+		const toggleOverflow = () => {
+			if (overflow && window.matchMedia('(max-width: 768px)').matches) {
+				document.body.style.overflow = 'hidden';
+			} else {
+				document.body.style.overflow = '';
+			}
+		};
+
+		toggleOverflow();
+
+		window.addEventListener('resize', toggleOverflow);
+
+		return () => window.addEventListener('resize', toggleOverflow);
+	}, [overflow]);
 
 	return (
 		<header

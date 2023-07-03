@@ -1,0 +1,16 @@
+.itemSkill {
+	padding: 30px 25px;
+	border: 1px solid #00affe;
+	&__icon {
+		font-size: 45px;
+		margin-bottom: 20px;
+	}
+	&__header {
+		margin-bottom: 15px;
+		color: #00affe;
+	}
+	&__descr {
+		font-size: 12px;
+		line-height: 18px;
+	}
+}

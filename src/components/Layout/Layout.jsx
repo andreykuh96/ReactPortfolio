@@ -15,16 +15,6 @@ const Layout = () => {
 		setOverflow(burgerActive ? false : true);
 	};
 
-	const toggleOverflow = () => {
-		if (overflow) {
-			document.body.style.overflow = 'hidden';
-		} else {
-			document.body.style.overflow = '';
-		}
-	};
-
-	toggleOverflow();
-
 	return (
 		<div className="wrapper">
 			<div
@@ -34,6 +24,7 @@ const Layout = () => {
 				<span></span>
 			</div>
 			<Header
+				overflow={overflow}
 				handleBurgerActive={handleBurgerActive}
 				headerActive={headerActive}
 			/>
