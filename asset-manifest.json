@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.62e3c361.css",
-    "main.js": "/ReactPortfolio/static/js/main.c92e6595.js",
+    "main.css": "/ReactPortfolio/static/css/main.be473659.css",
+    "main.js": "/ReactPortfolio/static/js/main.c7c6419d.js",
     "static/media/skill_1.png": "/ReactPortfolio/static/media/skill_1.ea018a0073d33b0e5caf.png",
     "static/media/skill_3.png": "/ReactPortfolio/static/media/skill_3.c22a8f85b928f0538170.png",
     "static/media/skill_4.png": "/ReactPortfolio/static/media/skill_4.7cfc1a2660e25ec4ef44.png",
@@ -9,16 +9,16 @@
     "static/media/hi.png": "/ReactPortfolio/static/media/hi.edca59eb1b2a2c4b8639.png",
     "static/media/mac.png": "/ReactPortfolio/static/media/mac.c5197792d61c8bd5425b.png",
     "static/media/about.png": "/ReactPortfolio/static/media/about.94b5afda810dfcd8e540.png",
-    "static/media/icomoon.svg?ydiwhd": "/ReactPortfolio/static/media/icomoon.104fcf845a2e77c8990d.svg",
-    "static/media/icomoon.eot?ydiwhd": "/ReactPortfolio/static/media/icomoon.b5909d6ceda55aa85548.eot",
-    "static/media/icomoon.woff?ydiwhd": "/ReactPortfolio/static/media/icomoon.75329edc976068d7539a.woff",
-    "static/media/icomoon.ttf?ydiwhd": "/ReactPortfolio/static/media/icomoon.9e1426b3532f3b326fa8.ttf",
+    "static/media/icomoon.svg?ydiwhd": "/ReactPortfolio/static/media/icomoon.33a20736a4db5c766236.svg",
+    "static/media/icomoon.eot?ydiwhd": "/ReactPortfolio/static/media/icomoon.832ba45b4a062cc082c8.eot",
+    "static/media/icomoon.woff?ydiwhd": "/ReactPortfolio/static/media/icomoon.8c5ebe7dde9aa5a2bb6d.woff",
+    "static/media/icomoon.ttf?ydiwhd": "/ReactPortfolio/static/media/icomoon.f7f9028202e912b6afe3.ttf",
     "index.html": "/ReactPortfolio/index.html",
-    "main.62e3c361.css.map": "/ReactPortfolio/static/css/main.62e3c361.css.map",
-    "main.c92e6595.js.map": "/ReactPortfolio/static/js/main.c92e6595.js.map"
+    "main.be473659.css.map": "/ReactPortfolio/static/css/main.be473659.css.map",
+    "main.c7c6419d.js.map": "/ReactPortfolio/static/js/main.c7c6419d.js.map"
   },
   "entrypoints": [
-    "static/css/main.62e3c361.css",
-    "static/js/main.c92e6595.js"
+    "static/css/main.be473659.css",
+    "static/js/main.c7c6419d.js"
   ]
 }
