@@ -1,0 +1,59 @@
+.portfolioPage {
+	padding: 120px 0 50px 0;
+	width: 100%;
+	&__wrapper {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, 200px);
+		grid-auto-rows: 200px;
+		justify-content: center;
+		gap: 5px;
+	}
+	&__link {
+		background-color: #fff;
+		opacity: 0.4;
+		&:hover {
+			opacity: 1;
+			transition: all 0.6s ease;
+		}
+		&:nth-child(4) {
+			grid-row: span 2;
+		}
+		&:nth-child(6) {
+			grid-column: span 2;
+		}
+		&_1 {
+			background: url('../../img/emplycity.png') center center/cover
+				no-repeat;
+		}
+		&_2 {
+			background: url('../../img/spaceshop.png') center center/cover
+				no-repeat;
+		}
+		&_3 {
+			background: url('../../img/marvel.png') center center/cover
+				no-repeat;
+		}
+		&_4 {
+			background: url('../../img/holafashion.png') center center/cover
+				no-repeat;
+		}
+		&_5 {
+			background: url('../../img/flodesk.png') center center/cover
+				no-repeat;
+		}
+		&_6 {
+			background: url('../../img/explorer.png') center center/cover
+				no-repeat;
+		}
+		&_7 {
+			background: url('../../img/coffe.png') center center/cover no-repeat;
+		}
+		&_8 {
+			background: url('../../img/posts.png') center center/cover no-repeat;
+		}
+		&_9 {
+			background: url('../../img/employee.png') center center/cover
+				no-repeat;
+		}
+	}
+}
