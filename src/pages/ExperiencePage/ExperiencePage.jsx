@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { Suspense, lazy, useState } from 'react';
 import './ExperiencePage.scss';
 import './ExperiencePage.media.scss';
 import Text from '../../components/Text/Text';
@@ -6,8 +6,10 @@ import skill_1 from '../../img/skill_1.png';
 import skill_2 from '../../img/skill_2.png';
 import skill_3 from '../../img/skill_3.png';
 import skill_4 from '../../img/skill_4.png';
-import Skill from '../../components/Skill/Skill';
 import SkillDescription from '../../components/SkillDescription/SkillDescription';
+import Spinner from 'react-svg-spinner';
+
+const Skill = lazy(() => import('../../components/Skill/Skill'));
 
 const ExperiencePage = () => {
 	const skills = [
@@ -59,18 +61,25 @@ const ExperiencePage = () => {
 				/>
 				<div className="exp__skill">
 					{skills.map((icon) => (
-						<Skill
-							id={icon.id}
-							changeSkillActive={changeSkillActive}
-							className={
-								skillActive === icon.id
-									? 'skill skill_active'
-									: 'skill'
-							}
-							name={icon.name}
+						<Suspense
 							key={icon.id}
-							skillImg={icon.img}
-						/>
+							fallback={
+								<Spinner size="200px" color="deepskyblue" />
+							}
+						>
+							<Skill
+								id={icon.id}
+								changeSkillActive={changeSkillActive}
+								className={
+									skillActive === icon.id
+										? 'skill skill_active'
+										: 'skill'
+								}
+								name={icon.name}
+								key={icon.id}
+								skillImg={icon.img}
+							/>
+						</Suspense>
 					))}
 				</div>
 				<div className="exp__skillDescription">
