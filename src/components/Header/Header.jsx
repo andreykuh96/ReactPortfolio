@@ -54,7 +54,7 @@ const Header = ({ headerActive, handleBurgerActive, overflow }) => {
 						<li className="menu__item">
 							<NavLink
 								onClick={() => handleBurgerActive()}
-								to="/about"
+								to="https://andreykuh96.github.io/ReactPortfolio/about"
 								className={({ isActive }) =>
 									isActive
 										? 'menu__link_active'
@@ -72,7 +72,7 @@ const Header = ({ headerActive, handleBurgerActive, overflow }) => {
 										? 'menu__link_active'
 										: 'menu__link'
 								}
-								to="/experience"
+								to="https://andreykuh96.github.io/ReactPortfolio/experience"
 							>
 								мой опыт
 							</NavLink>
@@ -85,7 +85,7 @@ const Header = ({ headerActive, handleBurgerActive, overflow }) => {
 										? 'menu__link_active'
 										: 'menu__link'
 								}
-								to="/skills"
+								to="https://andreykuh96.github.io/ReactPortfolio/skills"
 							>
 								мои навыки
 							</NavLink>
@@ -98,7 +98,7 @@ const Header = ({ headerActive, handleBurgerActive, overflow }) => {
 										? 'menu__link_active'
 										: 'menu__link'
 								}
-								to="/portfolio"
+								to="https://andreykuh96.github.io/ReactPortfolio/portfolio"
 							>
 								мои работы
 							</NavLink>
@@ -111,7 +111,7 @@ const Header = ({ headerActive, handleBurgerActive, overflow }) => {
 										? 'menu__link_active'
 										: 'menu__link'
 								}
-								to="/contacts"
+								to="https://andreykuh96.github.io/ReactPortfolio/contacts"
 							>
 								контакты
 							</NavLink>
