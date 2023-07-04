@@ -16,6 +16,13 @@ const ContactsPage = () => {
 					line={true}
 				/>
 				<div className="contacts__img">
+					<span className="contacts__arrow contacts__arrow_1 icon-arrow"></span>
+					<span className="contacts__arrow contacts__arrow_2 icon-arrow"></span>
+					<span className="contacts__arrow contacts__arrow_3 icon-arrow"></span>
+					<span className="contacts__arrow contacts__arrow_4 icon-arrow"></span>
+					<span className="contacts__arrow contacts__arrow_click">
+						Click Me
+					</span>
 					<Link
 						to="https://t.me/andreykuhtov"
 						target="_blank"

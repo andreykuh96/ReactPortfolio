@@ -27,6 +27,9 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-arrow:before {
+	content: '\e90e';
+}
 .icon-vk:before {
 	content: '\e90a';
 }
