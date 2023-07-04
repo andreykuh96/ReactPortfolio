@@ -27,6 +27,18 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-vk:before {
+	content: '\e90a';
+}
+.icon-telegram:before {
+	content: '\e90b';
+}
+.icon-instagram:before {
+	content: '\e90c';
+}
+.icon-github:before {
+	content: '\e90d';
+}
 .icon-figma:before {
 	content: '\e903';
 }

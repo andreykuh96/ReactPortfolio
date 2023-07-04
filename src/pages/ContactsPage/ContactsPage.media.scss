@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+	.contacts {
+		padding-top: 20px;
+		&__icon {
+			font-size: 80px;
+		}
+	}
+}
+@media (max-width: 600px) {
+	.contacts {
+		&__icon {
+			font-size: 60px;
+		}
+	}
+}
+@media (max-width: 450px) {
+	.contacts {
+		&__icon {
+			font-size: 30px;
+		}
+	}
+}

@@ -1,0 +1,49 @@
+.contacts {
+	width: 100%;
+	padding: 120px 0 50px 0;
+	.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	&__img {
+		position: relative;
+		margin-top: 50px;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		img {
+			width: 40%;
+			height: 40%;
+			object-fit: contain;
+		}
+	}
+	&__icon {
+		position: absolute;
+		font-size: 100px;
+		color: #00affe;
+		&:hover {
+			color: #00aefe58;
+			transition: all 0.4s ease;
+		}
+		&_telegram {
+			top: -1%;
+			left: 18%;
+		}
+		&_instagram {
+			top: 7%;
+			left: 79%;
+		}
+		&_github {
+			top: 77%;
+			left: 20%;
+		}
+		&_vk {
+			top: 63%;
+			left: 74%;
+		}
+	}
+}
