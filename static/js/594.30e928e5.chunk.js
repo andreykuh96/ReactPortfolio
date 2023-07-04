@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksite_portfolio=self.webpackChunksite_portfolio||[]).push([[594],{145:function(i,s,l){l.r(s),l.d(s,{default:function(){return n}});l(791);var e=l(184),n=function(i){var s=i.skillImg,l=i.name,n=i.className,c=i.changeSkillActive,a=i.id;return(0,e.jsxs)("div",{onClick:function(){return c(a)},className:n,children:[(0,e.jsx)("div",{className:"skill__img",children:(0,e.jsx)("img",{src:s,alt:"first skill"})}),(0,e.jsx)("div",{className:"skill__name",children:l})]})}}}]);
+//# sourceMappingURL=594.30e928e5.chunk.js.map
